@@ -7,15 +7,10 @@
 - [Solution Highlights](#solution-highlights)
 - [Core Features](#core-features)
 - [Technology Stack](#technology-stack)
-- [Architecture](#architecture)
 - [Impact & Benefits](#impact--benefits)
 - [Business Model & Potential](#business-model--potential)
-- [Team](#team)
 - [How to Run](#how-to-run)
 - [Demo & Video Link](#demo--video-link)
-- [License](#license)
-- [Contact](#contact)
-
 ---
 
 ## Overview
@@ -87,8 +82,6 @@ Winova offers:
 - **API Licensing:** Regulatory intelligence APIs for ESG consultants and legal tech platforms  
 
 ---
-
-
 
 ## How to Run
 
