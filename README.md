@@ -72,7 +72,7 @@ Winova provides:
 
 1. **Clone the repository**
     ```
-  git clone 
+  git clone https://github.com/Aaradhya13/final_win.git
   
   ```
    2. **Install dependencies**
@@ -100,22 +100,10 @@ Winova provides:
 
 ## Demo & Video Link
 
-- [Demo Video](#) <!-- Replace with actual link! -->
+- [Demo Video](#) <https://drive.google.com/file/d/12QpfdFqMfo_7K1rIx4dpu107x8BCjMHY/view?usp=sharing>
 
-## License
 
-MIT License (or as appropriate).
 
-## Contact
-
-For any queries:
-- Aaradhya: aaradhya4ksh@gmail.com
-- Anushree: anu740560@gmail.com
-- Dheeraj: dk013121@gmail.com
-
-**Let's build a compliant, sustainable digital future!**
-
-> **Tip:** Replace placeholders like repo URLs & video links with your own content before publishing!
 
 
 
