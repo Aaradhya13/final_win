@@ -116,8 +116,6 @@ Configure environment variables (MongoDB, API keys) in `.env`.
   npm run dev
   ```
 
-### 5. Access
-Browse to [http://localhost:3000](http://localhost:3000)
 
 ## Demo & Video Link
 - [Demo Video](https://drive.google.com/file/d/12QpfdFqMfo_7K1rIx4dpu107x8BCjMHY/view?usp=sharing)
