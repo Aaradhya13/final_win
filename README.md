@@ -71,11 +71,7 @@ Winova offers:
 
 ---
 
-## Architecture
 
-> *(To be added: system diagram or brief description if needed)*
-
----
 
 ## Impact & Benefits
 
