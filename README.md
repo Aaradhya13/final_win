@@ -1,39 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Winova: AI-Powered Carbon Compliance Platform
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Solution Highlights](#solution-highlights)
+- [Core Features](#core-features)
+- [Technology Stack](#technology-stack)
+- [Architecture](#architecture)
+- [Impact & Benefits](#impact--benefits)
+- [Business Model & Potential](#business-model--potential)
+- [Team](#team)
+- [How to Run](#how-to-run)
+- [Demo & Video Link](#demo--video-link)
+- [License](#license)
+- [Contact](#contact)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Winova** is an AI-powered SaaS platform that helps enterprises proactively track, predict, and comply with dynamic environmental regulations. By combining real-time emission tracking, predictive rule scanning, and financial risk simulation, Winova empowers organizations to reduce their carbon footprint, avoid penalties, and support sustainable business practices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Problem Statement
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Enterprises generate massive carbon emissions across supply chains, yet regulatory compliance is difficult due to fragmented and frequently changing environmental laws.
 
-## Learn More
+**Challenges:**
+- No centralized, real-time visibility into carbon data
+- Fast-changing, region-specific environmental policies
+- High risk of costly fines, reputational damage, and disruption
+- 60% of companies lack real-time regulatory monitoring; 40%+ fail ESG audits ([McKinsey](https://www.mckinsey.com/))
 
-To learn more about Next.js, take a look at the following resources:
+## Solution Highlights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Winova provides:
+- **Tracking:** Carbon footprint by department, facility, and process
+- **Prediction:** Foresight into upcoming environmental laws via government website scanning
+- **Explanation:** Converts regulations into plain-language steps using LLMs
+- **Simulation:** "What-if" analysis for compliance vs. non-compliance costs
+- **Alerting:** Real-time notifications and compliance tracking
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Core Features
 
-## Deploy on Vercel
+- **Carbon Emission Dashboard:** Visualizes detailed emissions by source, department, and timeline
+- **Predictive Regulatory Intelligence:** Agentic AI monitors 200+ government/regulatory sites
+- **Granite LLM Action Plans:** Explains complex policy in actionable steps
+- **Cost-Benefit Simulator:** Models the cost/ROI of compliance vs. penalties
+- **Dynamic Alerts & Reporting:** Real-time updates on critical regulations
+- **Unified Interface:** All features accessible on a single SaaS dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technology Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Front-End:** Next.js, Tailwind CSS, WebSockets
+- **Back-End:** FastAPI (Python), MongoDB
+- **AI & Analytics:**
+  - Agentic AI (policy/regulatory scan & forecast)
+  - Data Prep Kit (data cleaning, visualization)
+  - IBM Granite LLM (legal/regulation interpretation)
+- **Deployment:** Cloud-ready (IBM/AWS)
 
-TeamName-Winova
+## Impact & Benefits
+
+- Saves companies from million-dollar fines
+- Reduces emissions by informed tracking and simulation
+- Empowers ethical, sustainable business decisions
+
+## Business Model & Potential
+
+- **SaaS Subscription:** Enterprises pay for analytics, alerts, and compliance tools
+- **API Licensing:** Regulatory intelligence API for ESG consultants and legal platforms
+
+## Team
+
+| Name                   | USN           | Email                       | WhatsApp   |
+|------------------------|---------------|-----------------------------|------------|
+| Aaradhya Saikia        | 1DS23CS004    | aaradhya4ksh@gmail.com      | 8638411654 |
+| Anushree S K           | 1DS23CS043    | anu740560@gmail.com         | 8217018706 |
+| Nagendra Dheeraj Kumar | 1DS23CS101    | dk013121@gmail.com          | 9686142855 |
+
+**Institution:** BN M Institute of Technology, Bengaluru
+
+## How to Run
+
+1. **Clone the repository**
+   2. **Install dependencies**
+- Back-end:
+  ```
+  cd backend
+  pip install -r requirements.txt
+  ```
+- Front-end:
+  ```
+  cd frontend
+  npm install
+  ```
+3. **Configure environment variables** (MongoDB, API keys) in `.env`.
+4. **Run servers**
+- Backend (FastAPI):
+  ```
+  uvicorn main:app --reload
+  ```
+- Frontend (Next.js):
+  ```
+  npm run dev
+  ```
+5. **Access:** Browse to [http://localhost:3000](http://localhost:3000)
+
+## Demo & Video Link
+
+- [Demo Video](#) <!-- Replace with actual link! -->
+
+## License
+
+MIT License (or as appropriate).
+
+## Contact
+
+For any queries:
+- Aaradhya: aaradhya4ksh@gmail.com
+- Anushree: anu740560@gmail.com
+- Dheeraj: dk013121@gmail.com
+
+**Let's build a compliant, sustainable digital future!**
+
+> **Tip:** Replace placeholders like repo URLs & video links with your own content before publishing!
+
+
 
