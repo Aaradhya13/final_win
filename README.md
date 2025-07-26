@@ -88,11 +88,7 @@ Winova offers:
 
 ---
 
-## Team
 
-> *(To be updated with names, roles, and contact details of team members)*
-
----
 
 ## How to Run
 
@@ -100,33 +96,38 @@ Winova offers:
 ```bash
 git clone https://github.com/Aaradhya13/final_win.git
 cd final_win
+```
 
-   2. **Install dependencies**
-- Back-end:
-  ```
+### 2. Install Dependencies
+- **Back-end:**
+  ```bash
   cd backend
   pip install -r requirements.txt
   ```
-- Front-end:
-  ```
+- **Front-end:**
+  ```bash
   cd frontend
   npm install
   ```
-3. **Configure environment variables** (MongoDB, API keys) in `.env`.
-4. **Run servers**
-- Backend (FastAPI):
-  ```
+
+### 3. Configure Environment Variables
+Configure environment variables (MongoDB, API keys) in `.env`.
+
+### 4. Run Servers
+- **Backend (FastAPI):**
+  ```bash
   uvicorn main:app --reload
   ```
-- Frontend (Next.js):
-  ```
+- **Frontend (Next.js):**
+  ```bash
   npm run dev
   ```
-5. **Access:** Browse to [http://localhost:3000](http://localhost:3000)
+
+### 5. Access
+Browse to [http://localhost:3000](http://localhost:3000)
 
 ## Demo & Video Link
-
-- [Demo Video](#) <https://drive.google.com/file/d/12QpfdFqMfo_7K1rIx4dpu107x8BCjMHY/view?usp=sharing>
+- [Demo Video](https://drive.google.com/file/d/12QpfdFqMfo_7K1rIx4dpu107x8BCjMHY/view?usp=sharing)
 
 
 
