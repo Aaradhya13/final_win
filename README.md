@@ -34,7 +34,7 @@ Enterprises generate massive carbon emissions across supply chains, yet regulato
 
 Winova provides:
 - **Tracking:** Carbon footprint by department, facility, and process
-- **Prediction:** Foresight into upcoming environmental laws via government website scanning
+- **Prediction:** Foresight into upcoming environmental laws via government regulatory scanning
 - **Explanation:** Converts regulations into plain-language steps using LLMs
 - **Simulation:** "What-if" analysis for compliance vs. non-compliance costs
 - **Alerting:** Real-time notifications and compliance tracking
@@ -42,7 +42,6 @@ Winova provides:
 ## Core Features
 
 - **Carbon Emission Dashboard:** Visualizes detailed emissions by source, department, and timeline
-- **Predictive Regulatory Intelligence:** Agentic AI monitors 200+ government/regulatory sites
 - **Granite LLM Action Plans:** Explains complex policy in actionable steps
 - **Cost-Benefit Simulator:** Models the cost/ROI of compliance vs. penalties
 - **Dynamic Alerts & Reporting:** Real-time updates on critical regulations
@@ -50,7 +49,7 @@ Winova provides:
 
 ## Technology Stack
 
-- **Front-End:** Next.js, Tailwind CSS, WebSockets
+- **Front-End:** Next.js, Tailwind CSS
 - **Back-End:** FastAPI (Python), MongoDB
 - **AI & Analytics:**
   - Agentic AI (policy/regulatory scan & forecast)
@@ -69,19 +68,13 @@ Winova provides:
 - **SaaS Subscription:** Enterprises pay for analytics, alerts, and compliance tools
 - **API Licensing:** Regulatory intelligence API for ESG consultants and legal platforms
 
-## Team
-
-| Name                   | USN           | Email                       | WhatsApp   |
-|------------------------|---------------|-----------------------------|------------|
-| Aaradhya Saikia        | 1DS23CS004    | aaradhya4ksh@gmail.com      | 8638411654 |
-| Anushree S K           | 1DS23CS043    | anu740560@gmail.com         | 8217018706 |
-| Nagendra Dheeraj Kumar | 1DS23CS101    | dk013121@gmail.com          | 9686142855 |
-
-**Institution:** BN M Institute of Technology, Bengaluru
-
 ## How to Run
 
 1. **Clone the repository**
+    ```
+  git clone 
+  
+  ```
    2. **Install dependencies**
 - Back-end:
   ```
